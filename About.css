@@ -1,0 +1,249 @@
+/* About.css */
+
+/* About */
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Homemade+Apple&family=Playball&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.about {
+  
+    background: #ccc;
+    color: #000;
+    padding-bottom: 2rem;
+    
+}
+
+.about-header {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2rem;
+}
+
+
+.about-para {
+    /* padding:0 10rem 5rem 2rem; */
+    font-family: "Playball", cursive;
+    font-size: 2rem;
+}
+
+.chat-btn {
+    width: 150px;
+    height: 50px;
+    margin: 2rem 0 2rem 2rem;
+   font-size: 1rem
+}
+
+.chat-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.chat-btn:hover{
+    background: linear-gradient(90deg, #fff, #000);
+    color: #30524a;
+}
+
+.self-intro {
+  border-bottom: 1px solid #000;
+}
+
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+}
+
+.animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.95rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+
+
+  .first div {
+    color: #74dba1;
+    background-color: #000;
+  }
+  .second div {
+    color:#192e22;
+    background-color: #6dab9c;
+  }
+  .third div {
+    margin-top: 0.5rem;
+    color:#6dab9c;
+    background-color: #192e22;
+
+    
+  }
+
+  .My-Favourite {
+    border-bottom: 1px solid #000;
+    text-align: center;
+  }
+
+ .My-Favourite ul li {
+    font-family: "Playball", cursive;
+  }
+
+  .personal-love {
+      text-align: center;
+  }
+
+  .personal-love p {
+      padding: 0 1rem;
+      font-family: "Playball", cursive;
+  }
+
+
+
+
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+
+  /* welcome animation */
+
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+
+
+
+  
+
+  @media (min-width: 375px){
+
+    .my-img img{
+        display: none;
+    }
+
+    .about-para {
+      margin: 0;
+      padding: 0;
+      font-size: 1.2rem;
+      
+    }
+
+    .My-Favourite ul li {
+      font-size: 1.2rem;
+    }
+
+    .personal-love p {
+      font-size: 1.2rem;  
+  }
+
+  
+
+  }
+
+
+  @media (max-width: 768px) {
+    .animation {
+        height: 40px;
+    }
+    .animation > div > div {
+        height: 2.5rem;
+        margin-bottom: 2.4rem;
+        
+    }
+    @keyframes text-animation {
+        0% {margin-top: 0;}
+        10% {margin-top: 0;}
+        20% {margin-top: -4.9rem;}
+        30% {margin-top: -4.9rem;}
+        40% {margin-top: -9.8rem;}
+        60% {margin-top: -9.8rem;}
+        70% {margin-top: -4.9rem;}
+        80% {margin-top: -4.9rem;}
+        90% {margin-top: 0;}
+        100% {margin-top: 0;}
+    }
+}
+
+@media (max-width: 480px) {
+  .animation {
+      height: 30px;
+  }
+  .animation > div > div {
+      height: 2rem;
+      margin-bottom: 1.8rem;
+      font-size: 0.9rem; /* Reduce font size for small screens */
+  }
+  @keyframes text-animation {
+      0% {margin-top: 0;}
+      10% {margin-top: 0;}
+      20% {margin-top: -3.6rem;}
+      30% {margin-top: -3.6rem;}
+      40% {margin-top: -7.2rem;}
+      60% {margin-top: -7.2rem;}
+      70% {margin-top: -3.6rem;}
+      80% {margin-top: -3.6rem;}
+      90% {margin-top: 0;}
+      100% {margin-top: 0;}
+  }
+}
+
+@media (max-width: 375px) {
+  .animation {
+      height: 25px;
+     
+  }
+  .animation > div > div {
+      height: 1.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.8rem; /* Further reduce font size for very small screens */
+      font-weight: 700;
+  }
+  @keyframes text-animation {
+      0% {margin-top: 0;}
+      10% {margin-top: 0;}
+      20% {margin-top: -3rem;}
+      30% {margin-top: -3rem;}
+      40% {margin-top: -6rem;}
+      60% {margin-top: -6rem;}
+      70% {margin-top: -3rem;}
+      80% {margin-top: -3rem;}
+      90% {margin-top: 0;}
+      100% {margin-top: 0;}
+  }
+}
+
+@media (min-width:500px) {
+  .about-para {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .My-Favourite ul li {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .personal-love p {
+    font-size: 1.5rem;
+  }
+
+}
