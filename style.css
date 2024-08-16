@@ -216,6 +216,12 @@
     backface-visibility: hidden;
 }
 
+.list-traffic {
+    font-size: 0.6rem;
+    padding-right: 2rem;
+    
+}
+
 .card-bodyback {
     background-color: rgb(186, 73, 28);
     color: white;
@@ -482,6 +488,10 @@ input::placeholder {
     margin-bottom: 1rem;
 }
 
+.card-text {
+    font-size: 0.8rem;
+}
+
 
 
 
@@ -572,6 +582,8 @@ input::placeholder {
     padding: 1rem;
     
 }
+
+
 
 .my-animation {
     font-weight: 700;
