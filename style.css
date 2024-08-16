@@ -441,8 +441,6 @@ input::placeholder {
 }
 
 .my-work {
-    width: 300px;
-    min-height: 300px;
     margin-bottom: 2rem;
 }
 
@@ -463,12 +461,19 @@ input::placeholder {
 
 .bottom {
     background-color: #12142b;
-    
-    width: 100%;
-    min-height: 30vh;
+    height: 150px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
+}
+
+.bottom, .Read-link {
+    padding-bottom: 1.5rem;
+    padding-top: 1.2rem;
+}
+
+.Read-link:hover {
+    color: red;
 }
 
 .docs {
