@@ -588,7 +588,8 @@ input::placeholder {
 .my-animation {
     font-weight: 700;
     text-align: center;
-    font-size: 40px;
+    font-size: 0.5rem;
+    line-height: 1.8;
     font-family: Hack, sans-serif;
     text-transform: uppercase;
     background: linear-gradient(90deg, #000, #fff, #000);
@@ -598,7 +599,7 @@ input::placeholder {
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 5s linear 1;
+    animation: shine 5s linear infinite ;
     position: relative;
   }
   
@@ -669,6 +670,10 @@ input::placeholder {
     top: 95%;
     left: 50%;
     transform: translate(-50%, 10%);
+ }
+
+ .my-animation {
+    font-size: 10px;
  }
 
     
