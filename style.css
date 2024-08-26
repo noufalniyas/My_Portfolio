@@ -598,7 +598,7 @@ input::placeholder {
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 5s linear infinite;
+    animation: shine 5s linear 1;
     position: relative;
   }
   
