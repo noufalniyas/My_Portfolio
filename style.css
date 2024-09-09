@@ -493,7 +493,38 @@ input::placeholder {
 }
 
 
+/* Blog post */
 
+.myBlog {
+    margin: 0;
+    padding: 0;
+}
+
+.card-blog {
+    width: 100%;
+    border: 1px solid #ccc ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-right: 6rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-blog:hover {
+    transform: scale(0.9);
+    
+}
+
+.card-blog img {
+    width: 100%;
+}
+
+.drag {
+    min-height: 300px;
+}
+
+
+
+/*  */
 
 /* Read more */
 
@@ -717,6 +748,9 @@ input::placeholder {
 
     .Wa-chat {
         margin-right: 40rem;
+    }
+    .card-blog img {
+        width: 100%;
     }
 }
 
